@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+</head>
+<style>
+    body{
+        background: #87cbff;
+    }
+    .main{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        background: #fff;
+        padding: 20px;
+        border: solid;
+        width: 15%;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .card img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .card h1{
+        font-size: 35px;
+        margin: 5px 2px;
+    }
+    .about{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .info {
+        font-size: 15px;
+        margin: 5px 0;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="card">
+            <img src="profile.jpeg" alt="profile img">
+            <h1>John Doe</h1>
+            <p class="about">Web Developer</p>
+            <p class="info">Portfolio</p>
+            <p class="info"> Location: Earth</p>
+            <form action="#">
+                <input type="text" name="Name" placeholder="Your Name"><br><br>
+                <textarea name="msg" placeholder="Message"></textarea><br><br>
+                <input type="submit" value="Submit">
+            </form>
+            <br>
+            <a href="#">Visit Profile</a>
+        </div>
+    </div>
+</body>
+</html>
