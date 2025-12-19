@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+</head>
+<style>
+    body{
+        background: #87cbff;
+    }
+    .main{
+        text-align: center;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .card{
+        background: #fff;
+        padding: 20px;
+        border: solid;
+        width: 15%;
+        border-radius: 20px;
+        box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    }
+    .card img{
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .card h1{
+        font-size: 35px;
+        margin: 5px 2px;
+    }
+    .about{
+        font-size: 20px;
+        margin-bottom: 10px;
+        font-family: "Roboto Condensed", sans-serif;
+    }
+    .info {
+        font-size: 15px;
+        margin: 5px 0;
+        font-family: font-family: "Lora", serif;;
+    }
+</style>
+<body>
+    <div class="main">
+        <div class="card">
+            <img src="shinchan.jpg" alt="profile img">
+            <h1>SHINCHAN</h1>
+            
+            <p class="about"><strong>Portfolio</strong></p>
+            <p class="info"><strong>Age: </strong>5 year old</p>
+            <p class="info"><strong>Location:</strong>  Kasukabe</p>
+            <p class="info"><strong>Fav dog:</strong> Shero</p>
+            <p class="info"><strong>Best friend:</strong> Kazama</p>
+            <form action="#">
+                <input type="text" name="Name" placeholder="Your Name"><br><br>
+                <textarea name="msg" placeholder="Message"></textarea><br><br>
+                <input type="submit" value="Submit">
+                
+            </form>
+            <br>
+            <a href="#">Visit Profile</a>
+        </div>
+    </div>
+</body>
+
+</html>
